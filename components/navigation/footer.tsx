@@ -18,7 +18,7 @@ export function Footer() {
           <div className="hidden text-center md:block">
             <Link
               className="font-semibold"
-              href="https://rubixstudios.com.au"
+              href="https://maumanage.site"
               target="_blank"
             >
               <Image

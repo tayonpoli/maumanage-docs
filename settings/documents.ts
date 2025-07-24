@@ -3,20 +3,12 @@ import { Paths } from "@/lib/pageroutes"
 export const Documents: Paths[] = [
   {
     heading: "Introduction",
-    title: "Basic Setup",
+    title: "Getting Started",
     href: "/basic-setup",
     items: [
       {
         title: "Installation",
         href: "/installation",
-      },
-      {
-        title: "Setup",
-        href: "/setup",
-      },
-      {
-        title: "Changelog",
-        href: "/changelog",
       },
     ],
   },
@@ -24,29 +16,145 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
-    title: "Navigation",
-    href: "/navigation",
-    heading: "Documents",
+    title: "RBAC",
+    href: "/RBAC",
+    heading: "Authentication",
   },
   {
-    title: "Structure",
-    href: "/structure",
+    title: "User Management",
+    href: "/user-management",
     items: [
       {
-        title: "Deep",
-        href: "/deep",
+        title: "Send Invitation",
+        href: "/invitation",
+      },
+    ],
+  },
+  {
+    title: "User Account",
+    href: "/account",
+    items: [
+      {
+        title: "Login",
+        href: "/login",
         items: [
           {
-            title: "Deeper",
-            href: "/deeper",
-            items: [
-              {
-                title: "Even deeper",
-                href: "/even-deeper",
-              },
-            ],
+            title: "Forgot Password",
+            href: "/forgot-password",
           },
         ],
+      },
+      {
+        title: "Register",
+        href: "/register",
+      },
+      {
+        title: "Profile",
+        href: "/profile",
+        items: [
+          {
+            title: "Edit Profile",
+            href: "/edit-profile",
+          },
+          {
+            title: "Edit Company",
+            href: "/edit-company",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    spacer: true,
+  },
+  {
+    heading: "Functions",
+    title: "Sales",
+    href: "/sales",
+    items: [
+      {
+        title: "Create",
+        href: "/create",
+      },
+      {
+        title: "Edit",
+        href: "/edit",
+      },
+      {
+        title: "Delete",
+        href: "/delete",
+      },
+    ],
+  },
+  {
+    title: "Purchase",
+    href: "/purchase",
+    items: [
+      {
+        title: "Create",
+        href: "/create",
+      },
+      {
+        title: "Edit",
+        href: "/edit",
+      },
+      {
+        title: "Delete",
+        href: "/delete",
+      },
+    ],
+  },
+  {
+    title: "Expenses",
+    href: "/expenses",
+    items: [
+      {
+        title: "Create",
+        href: "/create",
+      },
+      {
+        title: "Edit",
+        href: "/edit",
+      },
+      {
+        title: "Delete",
+        href: "/delete",
+      },
+    ],
+  },
+  {
+    title: "Inventory",
+    href: "/inventory",
+    items: [
+      {
+        title: "Create",
+        href: "/create",
+      },
+      {
+        title: "Edit",
+        href: "/edit",
+      },
+      {
+        title: "Delete",
+        href: "/delete",
+      },
+    ],
+  },
+  {
+    title: "Production",
+    href: "/production",
+    items: [
+      {
+        title: "Create",
+        href: "/create",
+      },
+      {
+        title: "Edit",
+        href: "/edit",
+      },
+      {
+        title: "Delete",
+        href: "/delete",
       },
     ],
   },

@@ -1,0 +1,42 @@
+---
+title: Role-Based Access Control (RBAC)
+description: Each user has role-based access for security and simplicity.
+keywords: ["rbac", "role", "nextjs", "documents"]
+---
+
+## Roles
+
+**MauManage utilizes Role-Based Access Control (RBAC)** to define specific permissions and responsibilities for different user types, ensuring that each user has access only to the functionalities relevant to their role. This structure enhances security, streamlines workflows, and provides a clear division of duties within the application.
+
+<CardGrid>
+  <Card
+    subtitle="Roles"
+    title="Owner"
+    description="Have access to every feature in the system."
+    href="/docs/basic-setup/installation"
+  />
+  <Card
+    subtitle="Roles"
+    title="Admin"
+    description="Handle the core business processes efficiently and accurately."
+    href="/docs/basic-setup/installation"
+  />
+  <Card
+    subtitle="Roles"
+    title="Staff"
+    description="Only have access to operational features."
+    href="/docs/basic-setup/installation"
+  />
+</CardGrid>
+
+## RBAC on Core Features
+
+| Feature                              | Roles with Access                                                                 |
+| ------------------------------------ | --------------------------------------------------------------------------- |
+| **Sales**            | Staff (Create, Input Payment, POS), Admin (Create, Input Payment, Manage), Owner (View, Manage)           |
+| **Purchasing**              | Staff (Create, Input Payment), Admin (Create, Input Payment, Manage), Owner (View, Manage)                 |
+| **Expenses**                     | Admin (View, Create, Manage), Owner (View, Create, Manage)                         |
+| **Inventory**                           | Staff (View), Admin (View, Create, Adjust, Manage), Owner (View, Create, Adjust, Manage)                          |
+| **Production**                | Admin (View, Create, Manage), Owner (View, Create, Manage)                               |
+| **AI Analysis**                    | Admin, Owner                                    |
+| **Reporting**                     | Admin, Owner                        |
