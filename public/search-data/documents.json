@@ -108,6 +108,22 @@
     }
   },
   {
+    "slug": "/analysis",
+    "title": "AI Analysis",
+    "description": "This section provides an overview for performing AI-powered business analysis.",
+    "content": "This section provides a clear, structured **step-by-step guide** for utilizing the AI Analysis feature in your MauManage application. Follow these steps to gain insights and forecast sales trends from your data.\n\n## Steps\n\nTo perform AI analysis, follow these steps:\n",
+    "_searchMeta": {
+      "cleanContent": "this section provides a clear structured step-by-step guide for utilizing the ai analysis feature in your maumanage application follow these steps to gain insights and forecast sales trends from your data steps to perform ai analysis follow these steps:",
+      "headings": [
+        "Steps"
+      ],
+      "keywords": [
+        "Steps",
+        "step-by-step guide"
+      ]
+    }
+  },
+  {
     "slug": "/basic-setup",
     "title": "Introduction",
     "description": "This section provides an overview of how to get started with the MauManage Enterprise.",
@@ -452,6 +468,22 @@
         "Production",
         "AI Analysis",
         "Reporting"
+      ]
+    }
+  },
+  {
+    "slug": "/reporting",
+    "title": "Generate Reports",
+    "description": "This section provides an overview for generating sales and purchase reports.",
+    "content": "This section provides a clear, structured **step-by-step guide** for generating various reports (e.g., sales and purchase reports) within your MauManage application.\n\n## Steps\n\nTo generate reports, follow these steps:\n",
+    "_searchMeta": {
+      "cleanContent": "this section provides a clear structured step-by-step guide for generating various reports e g sales and purchase reports within your maumanage application steps to generate reports follow these steps:",
+      "headings": [
+        "Steps"
+      ],
+      "keywords": [
+        "Steps",
+        "step-by-step guide"
       ]
     }
   },

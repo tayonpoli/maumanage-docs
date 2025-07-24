@@ -157,49 +157,11 @@ export const Documents = [
         ],
     },
     {
-        spacer: true,
+        title: "AI Analysis",
+        href: "/analysis",
     },
     {
-        title: "Markdown",
-        href: "/markdown",
-        heading: "Components",
-        items: [
-            {
-                title: "Cards",
-                href: "/cards",
-            },
-            {
-                title: "Diagrams",
-                href: "/diagrams",
-            },
-            {
-                title: "Filetree",
-                href: "/filetree",
-            },
-            {
-                title: "Lists",
-                href: "/lists",
-            },
-            {
-                title: "Maths",
-                href: "/maths",
-            },
-            {
-                title: "Notes",
-                href: "/notes",
-            },
-            {
-                title: "Steps",
-                href: "/steps",
-            },
-            {
-                title: "Table",
-                href: "/table",
-            },
-            {
-                title: "Tabs",
-                href: "/tabs",
-            },
-        ],
+        title: "Reporting",
+        href: "/reporting",
     },
 ];
