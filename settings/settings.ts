@@ -1,5 +1,5 @@
 export const url = "https://rubix-documents.vercel.app"
-export const siteicon = "/icon.svg"
+export const siteicon = "/icon.png"
 
 export const gtm = "GTM-XXXXXXX"
 export const gtmconnected = true
