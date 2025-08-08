@@ -1,4 +1,4 @@
-export const url = "https://rubix-documents.vercel.app"
+export const url = "https://docs.maumanage.site"
 export const siteicon = "/icon.png"
 
 export const gtm = "GTM-XXXXXXX"
@@ -10,16 +10,15 @@ export const description =
 export const keywords = [
   "Next.js",
   "documentation",
-  "Rubix Studios",
-  "open source",
+  "MauManage",
   "SEO",
 ]
 export const urlimage = "/images/og-image.png"
 export const imagealt = "MauManage Documentation"
-export const twitterhandle = "@RubixStudios"
+export const twitterhandle = "@MauManage"
 
 export const companyname = "MauManage"
-export const companylink = "https://maumanage.site"
+export const companylink = "https://app.maumanage.site"
 
 export const branding = true
 export const rightsidebar = true

@@ -9,7 +9,7 @@ type SideBarEdit = {
 }
 
 export default function RightSideBar({ slug, title }: SideBarEdit) {
-  const dashboardUrl = `https://maumanage.site/`
+  const dashboardUrl = `https://app.maumanage.site/`
 
   return (
     <div className="flex flex-col gap-3 pl-2">

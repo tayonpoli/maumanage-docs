@@ -7,11 +7,11 @@ export const Navigations = [
   },
   {
     title: "Dashboard",
-    href: "https://maumanage.site",
+    href: "https://app.maumanage.site",
     external: true,
   },
 ]
 
 export const GitHubLink = {
-  href: "https://github.com/rubixvi/rubix-documents",
+  href: "https://github.com/tayonpoli/maumanage-docs",
 }
